@@ -1,0 +1,7 @@
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornya 5\bin\Debug\Laboratornya 5.exe.config
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornya 5\bin\Debug\Laboratornya 5.exe
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornya 5\bin\Debug\Laboratornya 5.pdb
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornya 5\obj\Debug\Laboratornya 5.csproj.AssemblyReference.cache
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornya 5\obj\Debug\Laboratornya 5.csproj.CoreCompileInputs.cache
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornya 5\obj\Debug\Laboratornya 5.exe
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornya 5\obj\Debug\Laboratornya 5.pdb
