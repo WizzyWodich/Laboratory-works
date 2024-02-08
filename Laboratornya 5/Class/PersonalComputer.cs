@@ -21,5 +21,6 @@ namespace PersonalComputers
                                 $"\n Операционная система: {this.OperatingSystem}" +
                                 $"\n Архитектура процесора: {this.arm}\n");
         }
+
     }
 }

@@ -23,19 +23,7 @@ namespace Computers
         public string OperatingSystem {get{return operatingSystem;} private set {}}
 
         public abstract void OutputInfo();
-
-        public int Calculation(int variableFirst, int variableSecond)
-        {
-            try {
-                return variableFirst + variableSecond;
-            }
-            catch (FormatException){  
-                return 0;
-            }  
-        }
     }
-
-
 }
 
 

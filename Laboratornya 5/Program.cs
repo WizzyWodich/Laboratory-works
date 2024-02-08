@@ -18,11 +18,13 @@ namespace Laboratornya_5
             laptop.OutputInfo();
 
             SelectMenu.clearConsole();
-            SelectMenu.selectMenu();
+            SelectMenu.selectMenu(laptop, computer);
+
+            
             
              // Запись и считывание файла
              // Калькулятор
-             // 
+            
             Console.ReadLine();
         }
     }
