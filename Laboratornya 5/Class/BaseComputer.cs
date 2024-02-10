@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Xml.Linq;
 
 
-namespace Computers
+namespace Class.Computers
 {
     abstract class BaseComputer
     {

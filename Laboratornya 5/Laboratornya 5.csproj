@@ -48,10 +48,15 @@
     <Compile Include="Class\PersonalComputer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectMenu\SelectMenuPersonalComputer.cs" />
     <Compile Include="SelectMenu\SelectMenu.cs" />
+    <Compile Include="SelectMenu\SelectMenuLaptop.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="files\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,10 +1,9 @@
-﻿using Menu;
-using PersonalComputers;
+﻿using SelectMenu.General;
+using Class.PersonalComputers;
 using System;
-using System.Runtime.InteropServices;
 
 
-namespace Laptops
+namespace Class.Laptops
 {
     internal class Laptop : PersonalComputer
     {
@@ -33,6 +32,7 @@ namespace Laptops
             Console.WriteLine("2. Вычитание");
             Console.WriteLine("3. Умножение");
             Console.WriteLine("4. Деление");
+            Console.WriteLine("ESC. Выйти из програмы");
 
             int choice;
             while (true)
@@ -40,21 +40,31 @@ namespace Laptops
                 ConsoleKeyInfo keyInfo = Console.ReadKey(true);
                 char keyChar = keyInfo.KeyChar;
 
-                if (char.IsDigit(keyChar))
+                if (keyInfo.Key == ConsoleKey.Escape)
+                {
+                    Console.WriteLine("Програма завершила свою работу.");
+                    Environment.Exit(0);
+                }
+
+                else if (char.IsDigit(keyChar))
                 {
                     choice = int.Parse(keyChar.ToString());
                     switch (choice)
                     {
                         case 1:
+                            Console.WriteLine("Вы выбрали Сложение");
                             Addition();
                             return;
                         case 2:
+                            Console.WriteLine("Вы выбрали Вычитание");
                             Subtraction();
                             return;
                         case 3:
+                            Console.WriteLine("Вы выбрали Умножение");
                             Multiplication();
                             return;
                         case 4:
+                            Console.WriteLine("Вы выбрали Деление");
                             Division();
                             return;
                         default:

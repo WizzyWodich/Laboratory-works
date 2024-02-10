@@ -1,8 +1,8 @@
 ﻿using System;
-using Computers;
-using PersonalComputers;
-using Laptops;
-using Menu;
+using Class.Computers;
+using Class.PersonalComputers;
+using Class.Laptops;
+using SelectMenu.General;
 
 namespace Laboratornya_5
 {
@@ -17,13 +17,13 @@ namespace Laboratornya_5
             Laptop laptop = new Laptop("Laptop", "Aser Nitro 7+", "Windows 10 Home", 64, 3200);
             laptop.OutputInfo();
 
-            SelectMenu.clearConsole();
-            SelectMenu.selectMenu(laptop, computer);
+            Console.ReadLine();
+            SelectMenu.General.GeneralSelectionMenu.clearConsole();
+            SelectMenu.General.GeneralSelectionMenu.selectMenu(laptop, computer);
 
             
             
-             // Запись и считывание файла
-             // Калькулятор
+             // Порядок на день
             
             Console.ReadLine();
         }
