@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using SelectMenu.General;
+using Class.Laptops;
 
 
 namespace Class.PersonalComputers
@@ -30,7 +31,8 @@ namespace Class.PersonalComputers
 
         private string[] createdFiles = new string[0];
         private string directoryPath = @"C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornya 5\files";
-        public void Files()
+
+        public void Files(PersonalComputer personalComputer, Laptop laptop)
         {
             try
             {
@@ -38,37 +40,45 @@ namespace Class.PersonalComputers
                 Console.WriteLine("Выберите действие: ");
                 Console.WriteLine("1. Записать текст в файл");
                 Console.WriteLine("2. Считать текст из файла");
-                Console.WriteLine("3. Завершить програму");
+                Console.WriteLine("3. Завершить программу");
+                Console.WriteLine("4. Начальное меню");
 
                 string choice = Console.ReadLine();
 
                 switch (choice)
                 {
                     case "1":
-                        WriteToFile();
+                        WriteToFile(personalComputer, laptop);
                         break;
                     case "2":
-                        ReadFromFile();
+                        ReadFromFile(personalComputer, laptop);
                         break;
                     case "3":
                         Environment.Exit(0);
                         return;
+                    case "4":
+                        GeneralSelectionMenu.clearConsole();
+                        GeneralSelectionMenu.selectMenu(personalComputer, laptop);
+                        break;
                     default:
                         Console.WriteLine("Выбрано неверное действие.");
                         break;
                 }
-                
+
             }
             catch (FormatException)
             {
                 Console.WriteLine("Ошибка: введите цифру.");
             }
-
+            finally
+            {
+                Console.WriteLine("Спасибо что воспользовались методом. Удачи");
+            }
         }
 
-        private void WriteToFile()
+        private void WriteToFile(PersonalComputer personalComputer, Laptop laptop)
         {
-            Console.WriteLine("Введите название файла: ");
+            Console.WriteLine("Введите название файла (без расширения .txt): ");
             string fileName = Console.ReadLine();
 
             Console.WriteLine("Введите текст: ");
@@ -76,13 +86,13 @@ namespace Class.PersonalComputers
 
             try
             {
-                string filePath = Path.Combine(directoryPath, fileName);
+                string filePath = Path.Combine(directoryPath, fileName + ".txt");
                 using (StreamWriter writer = new StreamWriter(filePath))
                 {
                     writer.WriteLine(text);
                 }
-                Console.WriteLine($"Текст успешно записан в файл '{fileName}'.");
-                AddFileToArray(fileName);
+                Console.WriteLine($"Текст успешно записан в файл '{fileName}.txt'.");
+                AddFileToArray(fileName + ".txt");
             }
             catch (Exception ex)
             {
@@ -90,35 +100,35 @@ namespace Class.PersonalComputers
             }
         }
 
-        private void ReadFromFile()
+        private void ReadFromFile(PersonalComputer personalComputer, Laptop laptop)
         {
-            if (createdFiles.Length == 0)
+            string[] files = Directory.GetFiles(directoryPath);
+            if (files.Length == 0)
             {
                 Console.WriteLine("Нет созданных файлов для чтения. Для начала создайте файл.");
                 Console.ReadLine();
-                Files();
+                Files(personalComputer, laptop);
                 return;
             }
 
             Console.WriteLine("Выберите файл для чтения:");
-            for (int i = 0; i < createdFiles.Length; i++)
+            for (int i = 0; i < files.Length; i++)
             {
-                Console.WriteLine($"{i + 1}. {createdFiles[i]}");
+                Console.WriteLine($"{i + 1}. {Path.GetFileName(files[i])}");
             }
 
             int choice;
-            if (!int.TryParse(Console.ReadLine(), out choice) || choice < 1 || choice > createdFiles.Length)
+            if (!int.TryParse(Console.ReadLine(), out choice) || choice < 1 || choice > files.Length)
             {
                 Console.WriteLine("Неверный выбор файла.");
                 return;
             }
 
-            string selectedFile = createdFiles[choice - 1];
+            string selectedFile = files[choice - 1];
 
             try
             {
-                string filePath = Path.Combine(directoryPath, selectedFile);
-                string text = File.ReadAllText(filePath);
+                string text = File.ReadAllText(selectedFile);
                 Console.WriteLine($"Содержимое файла '{selectedFile}':");
                 Console.WriteLine(text);
                 Console.ReadLine();
@@ -129,12 +139,28 @@ namespace Class.PersonalComputers
             }
         }
 
+
         private void AddFileToArray(string fileName)
         {
             Array.Resize(ref createdFiles, createdFiles.Length + 1);
             createdFiles[createdFiles.Length - 1] = fileName;
         }
 
+        public void ThrowAnException()
+        {
+            try{ GeneralSelectionMenu.clearConsole();
+                 throw new NullReferenceException(); }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Произошла ошибка");
+                Console.WriteLine(ex);
+            }
+            finally
+            {
+                Console.WriteLine();
+                Console.WriteLine("Вызвав метод вы создали исключение");
+            }
+        }
     }
 }
 

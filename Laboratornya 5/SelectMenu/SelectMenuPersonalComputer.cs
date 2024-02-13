@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq.Expressions;
+using Class.Laptops;
 using Class.PersonalComputers;
 using SelectMenu.General;
 
@@ -7,33 +9,28 @@ namespace SelectMenu.MenuPersonalComputer
 {
     internal class SelectMenuPersonalComputer
     {
-        public static void selectPersonalComputer(PersonalComputer personalComputer)
+        public static void selectPersonalComputer(PersonalComputer personalComputer, Laptop laptop)
         {
-            string[] ActionSelection = { "Работа с файлами", "Testing" };
+            string[] ActionSelection = { "Работа с файлами", "Вызвать ошибку", "Выход из програмы", "Начальное меню" };
 
             while (true)
             {
-                GeneralSelectionMenu.clearConsole();
-                Console.WriteLine("Выберите действие (введите цифру):");
-                for (var i = 0; i < ActionSelection.Length; i++)
+                try 
                 {
-                    Console.WriteLine($"{i + 1}. {ActionSelection[i]}");
-                }
+                    GeneralSelectionMenu.clearConsole();
+                    Console.WriteLine("Выберите действие (введите цифру):");
+                    for (var i = 0; i < ActionSelection.Length; i++)
+                    {
+                        Console.WriteLine($"{i + 1}. {ActionSelection[i]}");
+                    }
 
-                int choice;
-
-                ConsoleKeyInfo keyInfo = Console.ReadKey(true);
-                char keyChar = keyInfo.KeyChar;
-
-                if (char.IsDigit(keyChar))
-                {
-                    choice = int.Parse(keyChar.ToString());
+                    string choice = Console.ReadLine();
                     switch (choice)
                     {
-                        case 1:
+                        case "1":
                             try
                             {
-                                personalComputer.Files();
+                                personalComputer.Files(personalComputer, laptop);
                                 break;
                             }
                             catch (IndexOutOfRangeException)
@@ -41,20 +38,28 @@ namespace SelectMenu.MenuPersonalComputer
                                 Console.WriteLine($"Ошибка. Файла не сушествует или за данным индексом нечего не закреплено.");
                                 break;
                             }
-                        case 2:
-                            Console.WriteLine("TEsting.");
+                        case "2":
+                            personalComputer.ThrowAnException();
+                            Console.ReadLine();
                             break;
-                        case 3:
+                        case "3":
                             Environment.Exit(0);
                             return;
+                        case "4":
+                            GeneralSelectionMenu.clearConsole();
+                            GeneralSelectionMenu.selectMenu(personalComputer, laptop);
+                            break;
                         default:
                             Console.WriteLine("Ошибка: выбранная операция не найдена.");
                             break;
                     }
+                    
                 }
-                else
-                {
+                catch(FormatException){
                     Console.WriteLine("Ошибка: введите цифру.");
+                }
+                finally{
+                    Console.WriteLine("Спасибо что воспользовались методом. Удачи");
                 }
             }
         }

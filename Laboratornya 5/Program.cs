@@ -18,8 +18,8 @@ namespace Laboratornya_5
             laptop.OutputInfo();
 
             Console.ReadLine();
-            SelectMenu.General.GeneralSelectionMenu.clearConsole();
-            SelectMenu.General.GeneralSelectionMenu.selectMenu(laptop, computer);
+            GeneralSelectionMenu.clearConsole();
+            GeneralSelectionMenu.selectMenu(computer, laptop);
 
             
             

@@ -21,7 +21,6 @@ namespace Class.Computers
         public string Type { get{return type; } private set {}}
         public string ModelName { get{return modelName; } private set {}}
         public string OperatingSystem {get{return operatingSystem;} private set {}}
-
         public abstract void OutputInfo();
     }
 }

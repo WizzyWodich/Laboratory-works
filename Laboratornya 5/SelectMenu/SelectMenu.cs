@@ -15,52 +15,60 @@ namespace SelectMenu.General
             Console.WriteLine("Консоль очищена");
         }
 
-        public static void selectMenu(Laptop laptop, PersonalComputer computer)
+        public static void selectMenu(PersonalComputer personalComputer, Laptop laptop )
         {
-            string[] SelectElectronicDevice = { "Персональный компьютер", "Ноутбук" };
+            string[] SelectElectronicDevice = { "Персональный компьютер", "Ноутбук", "Выход из програмы" };
 
             Console.WriteLine("Выберите устройство (введите цифру):");
+
             for (var i = 0; i < SelectElectronicDevice.Length; i++)
-            {
                 Console.WriteLine($"{i + 1}. {SelectElectronicDevice[i]}");
-            }
+            
 
-            int choice;
-
+            // Главное меню выбора 
             while (true)
             {
-                ConsoleKeyInfo keyInfo = Console.ReadKey(true);
-                char keyChar = keyInfo.KeyChar;
-
-                if (char.IsDigit(keyChar))
+                try
                 {
-                    choice = int.Parse(keyChar.ToString());
+                    string choice = Console.ReadLine();
                     switch (choice)
                     {
-                        case 1:
-                            GeneralSelectionMenu.clearConsole();
-                            Console.WriteLine("Выбран Персональный компьютер.");
-                            SelectMenuPersonalComputer.selectPersonalComputer(computer);
-                            break;
-                        case 2:
-                            
+                        case "1":
                             try{
-                                Console.WriteLine("Выбран Ноутбук.");
-                                SelectMenuLaptop.selectMenuLaptop(laptop);
+                                GeneralSelectionMenu.clearConsole();
+                                Console.WriteLine("Выбран Персональный компьютер.");
+                                SelectMenuPersonalComputer.selectPersonalComputer(personalComputer, laptop);
                                 break;
                             }
-                            catch(Exception ex) { 
+                            catch(Exception ex){
                                 Console.WriteLine($"Произошла ошибка: {ex.Message}");
                                 break;
                             }
+                        case "2":
+
+                            try{
+                                GeneralSelectionMenu.clearConsole();
+                                Console.WriteLine("Выбран Ноутбук.");
+                                SelectMenuLaptop.selectMenuLaptop(personalComputer, laptop);
+                                break;
+                            }
+                            catch (Exception ex){
+                                Console.WriteLine($"Произошла ошибка: {ex.Message}");
+                                break;
+                            }
+                        case "3":
+                            Environment.Exit(0);
+                            return;
                         default:
-                            Console.WriteLine("Ошибка: выбранная операция не найдена.");
-                            break;
+                        Console.WriteLine("Ошибка: выбранная операция не найдена.");
+                        break;
                     }
                 }
-                else
-                {
+                catch (FormatException) {
                     Console.WriteLine("Ошибка: введите цифру.");
+                }
+                finally{
+                    Console.WriteLine("Спасибо что воспользовались методом. Удачи");
                 }
             }
         }
