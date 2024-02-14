@@ -9,7 +9,7 @@ namespace SelectMenu.MenuLaptop
     {
         public static void selectMenuLaptop (PersonalComputer personalComputer, Laptop laptop)
         {
-            string[] ActionSelection = { "Калькулятор", "Тестовая строка", "Выход из програмы", "Начальное меню" };
+            string[] ActionSelection = { "Калькулятор", "Ежедневник", "Выход из програмы", "Начальное меню" };
 
             Console.WriteLine("Выберите действие (введите цифру):");
             for (var i = 0; i < ActionSelection.Length; i++)

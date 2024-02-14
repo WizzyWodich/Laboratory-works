@@ -176,7 +176,7 @@ namespace Class.Laptops
                     throw new ArgumentException("Число не может быть отрицательным.");
                 }
 
-                int[] array = CreateAndPopulateScheduler(size);
+                string[] array = CreateAndPopulateScheduler(size);
 
                 Console.WriteLine("Все ваши дела на сегодня:");
                 PrintArray(array);
@@ -199,20 +199,20 @@ namespace Class.Laptops
             }
         }
 
-        private int[] CreateAndPopulateScheduler(int size)
+        private string[] CreateAndPopulateScheduler(int size)
         {
-            int[] array = new int[size];
+            string[] array = new string[size];
 
             Console.WriteLine($"Введите {size} чисел для заполнения массива:");
             for (int i = 0; i < size; i++)
             {
                 try
                 {
-                    array[i] = int.Parse(Console.ReadLine());
+                    array[i] = Console.ReadLine();
                 }
                 catch (FormatException)
                 {
-                    Console.WriteLine($"Ошибка при вводе числа {i + 1}. Попробуйте еще раз.");
+                    Console.WriteLine($"Ошибка при вводе строки {i + 1}. Попробуйте еще раз.");
                     i--; 
                 }
             }
@@ -220,9 +220,9 @@ namespace Class.Laptops
             return array;
         }
 
-        private void PrintArray(int[] array)
+        private void PrintArray(string[] array)
         {
-            foreach (int num in array)
+            foreach (string num in array)
             {
                 Console.WriteLine(num);
             }

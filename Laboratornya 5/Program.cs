@@ -12,7 +12,6 @@ namespace Laboratornya_5
         {
             PersonalComputer computer = new PersonalComputer("PersonalComputer", "N2133b", "Windows 11", 64);
             computer.OutputInfo();
-            
 
             Laptop laptop = new Laptop("Laptop", "Aser Nitro 7+", "Windows 10 Home", 64, 3200);
             laptop.OutputInfo();

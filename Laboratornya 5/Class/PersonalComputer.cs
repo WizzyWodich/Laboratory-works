@@ -30,7 +30,7 @@ namespace Class.PersonalComputers
 
 
         private string[] createdFiles = new string[0];
-        private string directoryPath = @"C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornya 5\files";
+        private string directoryPath = @"C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornya 5\files";
 
         public void Files(PersonalComputer personalComputer, Laptop laptop)
         {

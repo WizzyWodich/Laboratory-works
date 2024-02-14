@@ -5,3 +5,10 @@ C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laborato
 C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornya 5\obj\Debug\Laboratornya 5.csproj.CoreCompileInputs.cache
 C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornya 5\obj\Debug\Laboratornya 5.exe
 C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornya 5\obj\Debug\Laboratornya 5.pdb
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornya 5\bin\Debug\Laboratornya 5.exe.config
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornya 5\bin\Debug\Laboratornya 5.exe
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornya 5\bin\Debug\Laboratornya 5.pdb
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornya 5\obj\Debug\Laboratornya 5.csproj.AssemblyReference.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornya 5\obj\Debug\Laboratornya 5.csproj.CoreCompileInputs.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornya 5\obj\Debug\Laboratornya 5.exe
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornya 5\obj\Debug\Laboratornya 5.pdb
