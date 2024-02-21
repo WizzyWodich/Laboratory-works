@@ -1,0 +1,10 @@
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Lab-forms\laboratornya 5\bin\Debug\laboratornya 5.exe.config
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Lab-forms\laboratornya 5\bin\Debug\laboratornya 5.exe
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Lab-forms\laboratornya 5\bin\Debug\laboratornya 5.pdb
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Lab-forms\laboratornya 5\obj\Debug\laboratornya 5.csproj.AssemblyReference.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Lab-forms\laboratornya 5\obj\Debug\laboratornya_5.fMain.resources
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Lab-forms\laboratornya 5\obj\Debug\laboratornya_5.Properties.Resources.resources
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Lab-forms\laboratornya 5\obj\Debug\laboratornya 5.csproj.GenerateResource.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Lab-forms\laboratornya 5\obj\Debug\laboratornya 5.csproj.CoreCompileInputs.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Lab-forms\laboratornya 5\obj\Debug\laboratornya 5.exe
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Lab-forms\laboratornya 5\obj\Debug\laboratornya 5.pdb
