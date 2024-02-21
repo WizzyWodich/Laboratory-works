@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace laboratornya_5
+namespace laboratornya_6ex2
 {
     public partial class fMain : Form
     {
@@ -19,16 +20,18 @@ namespace laboratornya_5
         {
             try
             {
-                if (string.IsNullOrEmpty(tbVarX.Text) || string.IsNullOrEmpty(tbVarY.Text))
+                if (string.IsNullOrEmpty(tbVarX1.Text) || string.IsNullOrEmpty(tbVarX2.Text))
                 {
                     Console.WriteLine("Поля пусті будь-ласка введіть данні.");
                     return;
                 }
                 else
                 {
-                    double var_1 = double.Parse(tbVarX.Text);
-                    double var_2 = double.Parse(tbVarY.Text);
-                    double result = var_1 * var_2;
+                    double x1 = double.Parse(tbVarX1.Text);
+                    double x2 = double.Parse(tbVarX2.Text);
+                    double part1 = 45 * x1 * Math.Sin(x2);
+                    double part2 = Math.Sqrt(9 * x2 * Math.Pow(x1, 3));
+                    double result = part1 + part2;
                     tbResult.Text = result.ToString();
                 }
             }
@@ -47,8 +50,8 @@ namespace laboratornya_5
         {
             try
             {
-                tbVarX.Text = string.Empty;
-                tbVarY.Text = string.Empty;
+                tbVarX1.Text = string.Empty;
+                tbVarX2.Text = string.Empty;
                 tbResult.Text = string.Empty;
 
             }

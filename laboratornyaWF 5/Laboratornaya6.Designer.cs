@@ -1,5 +1,5 @@
 ﻿
-namespace laboratornya_5
+namespace laboratornya_6
 {
     partial class fMain
     {
@@ -38,11 +38,15 @@ namespace laboratornya_5
             this.tbVarX = new System.Windows.Forms.TextBox();
             this.tbVarY = new System.Windows.Forms.TextBox();
             this.tbResult = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ClearButton
             // 
-            this.ClearButton.Location = new System.Drawing.Point(12, 259);
+            this.ClearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ClearButton.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ClearButton.Location = new System.Drawing.Point(32, 259);
             this.ClearButton.Name = "ClearButton";
             this.ClearButton.Size = new System.Drawing.Size(108, 23);
             this.ClearButton.TabIndex = 1;
@@ -52,7 +56,9 @@ namespace laboratornya_5
             // 
             // EqualsButton
             // 
-            this.EqualsButton.Location = new System.Drawing.Point(140, 259);
+            this.EqualsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.EqualsButton.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.EqualsButton.Location = new System.Drawing.Point(160, 259);
             this.EqualsButton.Name = "EqualsButton";
             this.EqualsButton.Size = new System.Drawing.Size(108, 23);
             this.EqualsButton.TabIndex = 2;
@@ -62,7 +68,9 @@ namespace laboratornya_5
             // 
             // ExitButtonProgram
             // 
-            this.ExitButtonProgram.Location = new System.Drawing.Point(270, 259);
+            this.ExitButtonProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ExitButtonProgram.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ExitButtonProgram.Location = new System.Drawing.Point(290, 259);
             this.ExitButtonProgram.Name = "ExitButtonProgram";
             this.ExitButtonProgram.Size = new System.Drawing.Size(108, 23);
             this.ExitButtonProgram.TabIndex = 3;
@@ -74,7 +82,8 @@ namespace laboratornya_5
             // 
             this.iVariableX.AutoSize = true;
             this.iVariableX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.iVariableX.Location = new System.Drawing.Point(87, 65);
+            this.iVariableX.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.iVariableX.Location = new System.Drawing.Point(86, 63);
             this.iVariableX.Name = "iVariableX";
             this.iVariableX.Size = new System.Drawing.Size(84, 20);
             this.iVariableX.TabIndex = 4;
@@ -84,7 +93,8 @@ namespace laboratornya_5
             // 
             this.LVariableX.AutoSize = true;
             this.LVariableX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LVariableX.Location = new System.Drawing.Point(87, 107);
+            this.LVariableX.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.LVariableX.Location = new System.Drawing.Point(86, 105);
             this.LVariableX.Name = "LVariableX";
             this.LVariableX.Size = new System.Drawing.Size(84, 20);
             this.LVariableX.TabIndex = 5;
@@ -94,7 +104,8 @@ namespace laboratornya_5
             // 
             this.LVariableY.AutoSize = true;
             this.LVariableY.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LVariableY.Location = new System.Drawing.Point(73, 177);
+            this.LVariableY.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.LVariableY.Location = new System.Drawing.Point(72, 175);
             this.LVariableY.Name = "LVariableY";
             this.LVariableY.Size = new System.Drawing.Size(98, 20);
             this.LVariableY.TabIndex = 6;
@@ -102,43 +113,53 @@ namespace laboratornya_5
             // 
             // tbVarX
             // 
-            this.tbVarX.Location = new System.Drawing.Point(200, 65);
+            this.tbVarX.Location = new System.Drawing.Point(199, 63);
             this.tbVarX.Name = "tbVarX";
-            this.tbVarX.Size = new System.Drawing.Size(113, 20);
+            this.tbVarX.Size = new System.Drawing.Size(176, 20);
             this.tbVarX.TabIndex = 7;
             // 
             // tbVarY
             // 
-            this.tbVarY.Location = new System.Drawing.Point(200, 107);
+            this.tbVarY.Location = new System.Drawing.Point(199, 105);
             this.tbVarY.Name = "tbVarY";
-            this.tbVarY.Size = new System.Drawing.Size(113, 20);
+            this.tbVarY.Size = new System.Drawing.Size(176, 20);
             this.tbVarY.TabIndex = 8;
             // 
             // tbResult
             // 
-            this.tbResult.Location = new System.Drawing.Point(200, 177);
+            this.tbResult.Location = new System.Drawing.Point(199, 175);
             this.tbResult.Name = "tbResult";
-            this.tbResult.Size = new System.Drawing.Size(113, 20);
+            this.tbResult.Size = new System.Drawing.Size(176, 20);
             this.tbResult.TabIndex = 9;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel1.Controls.Add(this.tbResult);
+            this.panel1.Controls.Add(this.tbVarY);
+            this.panel1.Controls.Add(this.tbVarX);
+            this.panel1.Controls.Add(this.LVariableY);
+            this.panel1.Controls.Add(this.LVariableX);
+            this.panel1.Controls.Add(this.iVariableX);
+            this.panel1.Controls.Add(this.ExitButtonProgram);
+            this.panel1.Controls.Add(this.EqualsButton);
+            this.panel1.Controls.Add(this.ClearButton);
+            this.panel1.Location = new System.Drawing.Point(1, 2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(422, 313);
+            this.panel1.TabIndex = 10;
             // 
             // fMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(422, 314);
-            this.Controls.Add(this.tbResult);
-            this.Controls.Add(this.tbVarY);
-            this.Controls.Add(this.tbVarX);
-            this.Controls.Add(this.LVariableY);
-            this.Controls.Add(this.LVariableX);
-            this.Controls.Add(this.iVariableX);
-            this.Controls.Add(this.ExitButtonProgram);
-            this.Controls.Add(this.EqualsButton);
-            this.Controls.Add(this.ClearButton);
+            this.Controls.Add(this.panel1);
             this.Name = "fMain";
             this.Text = "Лабораторна 5";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -153,6 +174,7 @@ namespace laboratornya_5
         private System.Windows.Forms.TextBox tbVarX;
         private System.Windows.Forms.TextBox tbVarY;
         private System.Windows.Forms.TextBox tbResult;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

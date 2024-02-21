@@ -1,0 +1,17 @@
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\obj\Debug\net8.0-windows\laboratornya_6ex2.fMain.resources
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\obj\Debug\net8.0-windows\laboratornyaWF6ex2.csproj.GenerateResource.cache
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\obj\Debug\net8.0-windows\laboratornyaWF6ex2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\obj\Debug\net8.0-windows\laboratornyaWF6ex2.AssemblyInfoInputs.cache
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\obj\Debug\net8.0-windows\laboratornyaWF6ex2.AssemblyInfo.cs
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\obj\Debug\net8.0-windows\laboratornyaWF6ex2.csproj.CoreCompileInputs.cache
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\obj\Debug\net8.0-windows\laboratornyaWF6ex2.sourcelink.json
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\bin\Debug\net8.0-windows\laboratornyaWF6ex2.exe
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\bin\Debug\net8.0-windows\laboratornyaWF6ex2.deps.json
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\bin\Debug\net8.0-windows\laboratornyaWF6ex2.runtimeconfig.json
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\bin\Debug\net8.0-windows\laboratornyaWF6ex2.dll
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\bin\Debug\net8.0-windows\laboratornyaWF6ex2.pdb
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\obj\Debug\net8.0-windows\laboratornyaWF6ex2.dll
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\obj\Debug\net8.0-windows\refint\laboratornyaWF6ex2.dll
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\obj\Debug\net8.0-windows\laboratornyaWF6ex2.pdb
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\obj\Debug\net8.0-windows\laboratornyaWF6ex2.genruntimeconfig.cache
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\laboratornyaWF6ex2\obj\Debug\net8.0-windows\ref\laboratornyaWF6ex2.dll
