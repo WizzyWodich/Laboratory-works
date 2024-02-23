@@ -22,7 +22,7 @@ namespace laboratornya_6ex2
             {
                 if (string.IsNullOrEmpty(tbVarX1.Text) || string.IsNullOrEmpty(tbVarX2.Text))
                 {
-                    Console.WriteLine("Поля пусті будь-ласка введіть данні.");
+                    tbResult.Text = "Поля пусті будь-ласка введіть данні.";
                     return;
                 }
                 else
@@ -37,13 +37,8 @@ namespace laboratornya_6ex2
             }
             catch (FormatException)
             {
-                Console.WriteLine($"Будь-ласка введіть цифри.");                
+                tbResult.Text = "Будь-ласка введіть цифри.";                
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Помилка: {ex}");
-            }
-
         }
 
         private void ClearButton_Click(object sender, EventArgs e)
@@ -57,7 +52,7 @@ namespace laboratornya_6ex2
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Помилка: {ex}");
+                tbResult.Text = "Помилка: {ex}";
             }
         }
     }
