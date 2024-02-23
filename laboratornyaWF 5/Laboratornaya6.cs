@@ -34,13 +34,8 @@ namespace laboratornya_6
             }
             catch (FormatException)
             {
-                Console.WriteLine($"Будь-ласка введіть цифри.");                
+                tbResult.Text = "Будь-ласка введіть цифри.";                
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Помилка: {ex}");
-            }
-
         }
 
         private void ClearButton_Click(object sender, EventArgs e)
@@ -54,7 +49,7 @@ namespace laboratornya_6
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Помилка: {ex}");
+                tbResult.Text = "Помилка: {ex}";
             }
         }
     }
