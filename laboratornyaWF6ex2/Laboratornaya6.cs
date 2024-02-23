@@ -52,7 +52,7 @@ namespace laboratornya_6ex2
             }
             catch (Exception ex)
             {
-                tbResult.Text = "Помилка: {ex}";
+                tbResult.Text = $"Помилка: {ex}";
             }
         }
     }

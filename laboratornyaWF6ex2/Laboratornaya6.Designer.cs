@@ -32,8 +32,8 @@ namespace laboratornya_6ex2
             ClearButton = new Button();
             EqualsButton = new Button();
             ExitButtonProgram = new Button();
-            iVariableX = new Label();
-            LVariableX = new Label();
+            iVariableX1 = new Label();
+            LVariableX2 = new Label();
             LVariableY = new Label();
             tbVarX1 = new TextBox();
             tbVarX2 = new TextBox();
@@ -81,29 +81,29 @@ namespace laboratornya_6ex2
             ExitButtonProgram.UseVisualStyleBackColor = true;
             ExitButtonProgram.Click += ExitButtonProgram_Click;
             // 
-            // iVariableX
+            // iVariableX1
             // 
-            iVariableX.AutoSize = true;
-            iVariableX.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            iVariableX.ForeColor = SystemColors.InactiveBorder;
-            iVariableX.Location = new Point(100, 73);
-            iVariableX.Margin = new Padding(4, 0, 4, 0);
-            iVariableX.Name = "iVariableX";
-            iVariableX.Size = new Size(84, 20);
-            iVariableX.TabIndex = 4;
-            iVariableX.Text = "Змінна X";
+            iVariableX1.AutoSize = true;
+            iVariableX1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            iVariableX1.ForeColor = SystemColors.InactiveBorder;
+            iVariableX1.Location = new Point(100, 73);
+            iVariableX1.Margin = new Padding(4, 0, 4, 0);
+            iVariableX1.Name = "iVariableX1";
+            iVariableX1.Size = new Size(94, 20);
+            iVariableX1.TabIndex = 4;
+            iVariableX1.Text = "Змінна X1";
             // 
-            // LVariableX
+            // LVariableX2
             // 
-            LVariableX.AutoSize = true;
-            LVariableX.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            LVariableX.ForeColor = SystemColors.InactiveBorder;
-            LVariableX.Location = new Point(100, 121);
-            LVariableX.Margin = new Padding(4, 0, 4, 0);
-            LVariableX.Name = "LVariableX";
-            LVariableX.Size = new Size(84, 20);
-            LVariableX.TabIndex = 5;
-            LVariableX.Text = "Змінна Y";
+            LVariableX2.AutoSize = true;
+            LVariableX2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            LVariableX2.ForeColor = SystemColors.InactiveBorder;
+            LVariableX2.Location = new Point(100, 121);
+            LVariableX2.Margin = new Padding(4, 0, 4, 0);
+            LVariableX2.Name = "LVariableX2";
+            LVariableX2.Size = new Size(94, 20);
+            LVariableX2.TabIndex = 5;
+            LVariableX2.Text = "Змінна X2";
             // 
             // LVariableY
             // 
@@ -113,9 +113,9 @@ namespace laboratornya_6ex2
             LVariableY.Location = new Point(84, 202);
             LVariableY.Margin = new Padding(4, 0, 4, 0);
             LVariableY.Name = "LVariableY";
-            LVariableY.Size = new Size(98, 20);
+            LVariableY.Size = new Size(115, 20);
             LVariableY.TabIndex = 6;
-            LVariableY.Text = "Результат";
+            LVariableY.Text = "Результат Y";
             // 
             // tbVarX1
             // 
@@ -148,8 +148,8 @@ namespace laboratornya_6ex2
             panel1.Controls.Add(tbVarX2);
             panel1.Controls.Add(tbVarX1);
             panel1.Controls.Add(LVariableY);
-            panel1.Controls.Add(LVariableX);
-            panel1.Controls.Add(iVariableX);
+            panel1.Controls.Add(LVariableX2);
+            panel1.Controls.Add(iVariableX1);
             panel1.Controls.Add(ExitButtonProgram);
             panel1.Controls.Add(EqualsButton);
             panel1.Controls.Add(ClearButton);
@@ -178,8 +178,8 @@ namespace laboratornya_6ex2
         private System.Windows.Forms.Button ClearButton;
         private System.Windows.Forms.Button EqualsButton;
         private System.Windows.Forms.Button ExitButtonProgram;
-        private System.Windows.Forms.Label iVariableX;
-        private System.Windows.Forms.Label LVariableX;
+        private System.Windows.Forms.Label iVariableX1;
+        private System.Windows.Forms.Label LVariableX2;
         private System.Windows.Forms.Label LVariableY;
         private System.Windows.Forms.TextBox tbVarX1;
         private System.Windows.Forms.TextBox tbVarX2;
