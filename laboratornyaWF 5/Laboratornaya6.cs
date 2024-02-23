@@ -21,7 +21,7 @@ namespace laboratornya_6
             {
                 if (string.IsNullOrEmpty(tbVarX.Text) || string.IsNullOrEmpty(tbVarY.Text))
                 {
-                    Console.WriteLine("Поля пусті будь-ласка введіть данні.");
+                    tbResult.Text = "Поля пусті будь-ласка введіть данні.";
                     return;
                 }
                 else
