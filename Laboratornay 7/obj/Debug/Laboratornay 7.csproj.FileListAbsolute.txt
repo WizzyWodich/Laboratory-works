@@ -1,0 +1,11 @@
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\bin\Debug\Laboratornay 7.exe.config
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\bin\Debug\Laboratornay 7.exe
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\bin\Debug\Laboratornay 7.pdb
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\obj\Debug\Laboratornay 7.csproj.AssemblyReference.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\obj\Debug\Laboratornay 7.csproj.SuggestedBindingRedirects.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\obj\Debug\Laboratornay_7.GeneralForm.resources
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\obj\Debug\Laboratornay_7.Properties.Resources.resources
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\obj\Debug\Laboratornay 7.csproj.GenerateResource.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\obj\Debug\Laboratornay 7.csproj.CoreCompileInputs.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\obj\Debug\Laboratornay 7.exe
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\obj\Debug\Laboratornay 7.pdb
