@@ -9,3 +9,13 @@ C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratorn
 C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\obj\Debug\Laboratornay 7.csproj.CoreCompileInputs.cache
 C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\obj\Debug\Laboratornay 7.exe
 C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboratornay 7\obj\Debug\Laboratornay 7.pdb
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 7\bin\Debug\Laboratornay 7.exe.config
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 7\bin\Debug\Laboratornay 7.exe
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 7\bin\Debug\Laboratornay 7.pdb
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 7\obj\Debug\Laboratornay 7.csproj.AssemblyReference.cache
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 7\obj\Debug\Laboratornay_7.GeneralForm.resources
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 7\obj\Debug\Laboratornay_7.Properties.Resources.resources
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 7\obj\Debug\Laboratornay 7.csproj.GenerateResource.cache
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 7\obj\Debug\Laboratornay 7.csproj.CoreCompileInputs.cache
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 7\obj\Debug\Laboratornay 7.exe
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 7\obj\Debug\Laboratornay 7.pdb
