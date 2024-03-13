@@ -39,11 +39,12 @@ namespace Lab8
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ShowInfoTeacher_Click(object sender, EventArgs e)
         {
             try
             {
                 teacher2.InfoTeacher();
+                MessageBox.Show("Інформація про викладачі заповнена.", "Информація", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (NullReferenceException)
             {
@@ -51,11 +52,12 @@ namespace Lab8
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void ShowInfoStudent_Click(object sender, EventArgs e)
         {
             try
             {
                 teacher2.InfoStudent();
+                MessageBox.Show("Інформація про студентів заповнена.", "Информація", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (NullReferenceException)
             {
@@ -63,11 +65,12 @@ namespace Lab8
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void EditInfoLeasonsTopic_Click(object sender, EventArgs e)
         {
             try
             {
                 teacher2.EditLessonTopic();
+                MessageBox.Show("Тема заняття змінена.", "Информація", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (NullReferenceException)
             {
@@ -75,11 +78,12 @@ namespace Lab8
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void EditInfoStudent_Click(object sender, EventArgs e)
         {
             try
             {
                 teacher2.EditStudent();
+                MessageBox.Show("Імена студентів змінено.", "Информація", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (NullReferenceException)
             {
@@ -92,6 +96,7 @@ namespace Lab8
             try
             {
                 teacher2.SaveFiles();
+                MessageBox.Show("Інформація збережена у файл .txt у корінь проекту.", "Информація", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch 
             {
@@ -104,6 +109,7 @@ namespace Lab8
             try
             {
                 teacher2.EditInfoTeachers();
+                MessageBox.Show("Інформація про викладача змінена.", "Информація", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (NullReferenceException)
             {

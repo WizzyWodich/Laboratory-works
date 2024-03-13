@@ -47,7 +47,8 @@ namespace Lab8
                             $" Прізвище: {FirstName}\n" +
                             $" По-батькові: {SurName}\n " +
                             $"Вік: {Age}\n" +
-                            $"Дисципліна: {Discipline}",
+                            $"Дисципліна: {Discipline}\n" +
+                            $"Тема заняття: {LessonTopic}",
                             "Дані викладача", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
@@ -93,18 +94,30 @@ namespace Lab8
 
         public void SaveFiles()
         {
-            string filePatch = "C:\\Users\\aud50\\Desktop\\Сонін Кирило К-31\\Laboratory-works-main";
-            StreamWriter sw = new StreamWriter(filePatch);
-            sw.WriteLine($"Данні викладача \n" +
-                $"Ім'я викладача: {NameTeachers}\n" +
-                $"Призвище: {FirstName}\n" +
-                $"По батькові {SurName} \n" +
-                $"Вік викладача {Age}\n" +
-                $"Дисципліна {Discipline}" +
-                $"Тема заннятя {LessonTopic}" +
-                $"Информація про студентів:" +
-                $"Студенти {GetStudents()}\n");
-            sw.Close();
+            try
+            {
+                string filePatch = "C:/Users/kirya/Desktop/Programing/Работы/Лабораторные/Lab8/Test.txt";
+                StreamWriter sw = new StreamWriter(filePatch);
+                sw.WriteLine($"Данні викладача \n" +
+                    $"Ім'я викладача: {NameTeachers}\n" +
+                    $"Призвище: {FirstName}\n" +
+                    $"По батькові {SurName} \n" +
+                    $"Вік викладача {Age}\n" +
+                    $"Дисципліна {Discipline}\n" +
+                    $"Тема заннятя {LessonTopic}\n" +
+                    $"Информація про студентів:\n" +
+                    $"Студенти {GetStudents()}\n");
+                sw.Close();
+            }
+            catch (FileNotFoundException)
+            {
+                MessageBox.Show("Файл не існує.", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (NullReferenceException)
+            {
+                MessageBox.Show("Об'єкт не існує.", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
     }
 }
