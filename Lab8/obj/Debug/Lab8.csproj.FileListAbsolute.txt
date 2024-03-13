@@ -1,0 +1,11 @@
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\obj\Debug\Lab8.csproj.AssemblyReference.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\obj\Debug\Lab8.csproj.SuggestedBindingRedirects.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\obj\Debug\Lab8.Form1.resources
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\obj\Debug\Lab8.Properties.Resources.resources
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\obj\Debug\Lab8.csproj.GenerateResource.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\obj\Debug\Lab8.csproj.CoreCompileInputs.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\bin\Debug\Lab8.exe.config
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\bin\Debug\Lab8.exe
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\bin\Debug\Lab8.pdb
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\obj\Debug\Lab8.exe
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\obj\Debug\Lab8.pdb
