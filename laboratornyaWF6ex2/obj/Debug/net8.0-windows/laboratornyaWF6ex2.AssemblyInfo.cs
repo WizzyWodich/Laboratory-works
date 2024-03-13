@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("laboratornyaWF6ex2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a49d1566baf3349c63e14047a37e8edaea465ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2451153838bafb92b07a9f83649feeff571eb7a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("laboratornyaWF6ex2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("laboratornyaWF6ex2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

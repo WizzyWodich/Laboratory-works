@@ -1,0 +1,10 @@
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 6z2\bin\Debug\Laboratornay 6z2.exe.config
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 6z2\bin\Debug\Laboratornay 6z2.exe
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 6z2\bin\Debug\Laboratornay 6z2.pdb
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 6z2\obj\Debug\Laboratornay 6z2.csproj.AssemblyReference.cache
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 6z2\obj\Debug\Laboratornay_6z2.fMain.resources
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 6z2\obj\Debug\Laboratornay_6z2.Properties.Resources.resources
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 6z2\obj\Debug\Laboratornay 6z2.csproj.GenerateResource.cache
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 6z2\obj\Debug\Laboratornay 6z2.csproj.CoreCompileInputs.cache
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 6z2\obj\Debug\Laboratornay 6z2.exe
+C:\Users\kirya\Desktop\programing\Работы\Лабораторные\Laboratornay 6z2\obj\Debug\Laboratornay 6z2.pdb
