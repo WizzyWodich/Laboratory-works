@@ -1,0 +1,12 @@
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboraatornya9\bin\Debug\Laboraatornya9.exe.config
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboraatornya9\bin\Debug\Laboraatornya9.exe
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboraatornya9\bin\Debug\Laboraatornya9.pdb
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboraatornya9\obj\Debug\Laboraatornya9.csproj.AssemblyReference.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboraatornya9\obj\Debug\Laboraatornya9.mainForm.resources
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboraatornya9\obj\Debug\Laboraatornya9.Properties.Resources.resources
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboraatornya9\obj\Debug\Laboraatornya9.readForm.resources
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboraatornya9\obj\Debug\Laboraatornya9.recordForm.resources
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboraatornya9\obj\Debug\Laboraatornya9.csproj.GenerateResource.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboraatornya9\obj\Debug\Laboraatornya9.csproj.CoreCompileInputs.cache
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboraatornya9\obj\Debug\Laboraatornya9.exe
+C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Laboraatornya9\obj\Debug\Laboraatornya9.pdb
