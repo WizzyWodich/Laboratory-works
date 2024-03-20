@@ -9,3 +9,13 @@ C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\bin\D
 C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\bin\Debug\Lab8.pdb
 C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\obj\Debug\Lab8.exe
 C:\Users\aud50\Desktop\Сонін Кирило К-31\Laboratory-works\Lab8\obj\Debug\Lab8.pdb
+C:\Users\kirya\Desktop\Programing\Работы\Лабораторные\Lab8\bin\Debug\Lab8.exe.config
+C:\Users\kirya\Desktop\Programing\Работы\Лабораторные\Lab8\bin\Debug\Lab8.exe
+C:\Users\kirya\Desktop\Programing\Работы\Лабораторные\Lab8\bin\Debug\Lab8.pdb
+C:\Users\kirya\Desktop\Programing\Работы\Лабораторные\Lab8\obj\Debug\Lab8.csproj.AssemblyReference.cache
+C:\Users\kirya\Desktop\Programing\Работы\Лабораторные\Lab8\obj\Debug\Lab8.Form1.resources
+C:\Users\kirya\Desktop\Programing\Работы\Лабораторные\Lab8\obj\Debug\Lab8.Properties.Resources.resources
+C:\Users\kirya\Desktop\Programing\Работы\Лабораторные\Lab8\obj\Debug\Lab8.csproj.GenerateResource.cache
+C:\Users\kirya\Desktop\Programing\Работы\Лабораторные\Lab8\obj\Debug\Lab8.csproj.CoreCompileInputs.cache
+C:\Users\kirya\Desktop\Programing\Работы\Лабораторные\Lab8\obj\Debug\Lab8.exe
+C:\Users\kirya\Desktop\Programing\Работы\Лабораторные\Lab8\obj\Debug\Lab8.pdb

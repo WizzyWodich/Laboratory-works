@@ -28,36 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btEditTeachers = new System.Windows.Forms.Button();
-            this.Save = new System.Windows.Forms.Button();
+            this.btEditTeacherInfo = new System.Windows.Forms.Button();
+            this.tbSave = new System.Windows.Forms.Button();
             this.btConstDef = new System.Windows.Forms.Button();
             this.btConstParam = new System.Windows.Forms.Button();
             this.btConstCopy = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.tbEditInfoStudent = new System.Windows.Forms.Button();
+            this.tbEditInfoLeasonsTopic = new System.Windows.Forms.Button();
+            this.tbShowInfoTeacher = new System.Windows.Forms.Button();
+            this.tbShowInfoStudent = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btEditTeachers
+            // btEditTeacherInfo
             // 
-            this.btEditTeachers.Location = new System.Drawing.Point(394, 54);
-            this.btEditTeachers.Name = "btEditTeachers";
-            this.btEditTeachers.Size = new System.Drawing.Size(111, 37);
-            this.btEditTeachers.TabIndex = 0;
-            this.btEditTeachers.Text = "Редагувати дані викладача";
-            this.btEditTeachers.UseVisualStyleBackColor = true;
-            this.btEditTeachers.Click += new System.EventHandler(this.btEditTeachers_Click);
+            this.btEditTeacherInfo.Location = new System.Drawing.Point(394, 54);
+            this.btEditTeacherInfo.Name = "btEditTeacherInfo";
+            this.btEditTeacherInfo.Size = new System.Drawing.Size(111, 37);
+            this.btEditTeacherInfo.TabIndex = 0;
+            this.btEditTeacherInfo.Text = "Редагувати дані викладача";
+            this.btEditTeacherInfo.UseVisualStyleBackColor = true;
+            this.btEditTeacherInfo.Click += new System.EventHandler(this.btEditTeachers_Click);
             // 
-            // Save
+            // tbSave
             // 
-            this.Save.Location = new System.Drawing.Point(277, 164);
-            this.Save.Name = "Save";
-            this.Save.Size = new System.Drawing.Size(111, 37);
-            this.Save.TabIndex = 0;
-            this.Save.Text = "Зберегти";
-            this.Save.UseVisualStyleBackColor = true;
-            this.Save.Click += new System.EventHandler(this.Save_Click);
+            this.tbSave.Location = new System.Drawing.Point(277, 164);
+            this.tbSave.Name = "tbSave";
+            this.tbSave.Size = new System.Drawing.Size(111, 37);
+            this.tbSave.TabIndex = 0;
+            this.tbSave.Text = "Зберегти";
+            this.tbSave.UseVisualStyleBackColor = true;
+            this.tbSave.Click += new System.EventHandler(this.Save_Click);
             // 
             // btConstDef
             // 
@@ -89,76 +89,76 @@
             this.btConstCopy.UseVisualStyleBackColor = true;
             this.btConstCopy.Click += new System.EventHandler(this.btConstCopy_Click);
             // 
-            // button1
+            // tbEditInfoStudent
             // 
-            this.button1.Location = new System.Drawing.Point(394, 107);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 37);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Редагувати данні студентів";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.tbEditInfoStudent.Location = new System.Drawing.Point(394, 107);
+            this.tbEditInfoStudent.Name = "tbEditInfoStudent";
+            this.tbEditInfoStudent.Size = new System.Drawing.Size(111, 37);
+            this.tbEditInfoStudent.TabIndex = 0;
+            this.tbEditInfoStudent.Text = "Редагувати данні студентів";
+            this.tbEditInfoStudent.UseVisualStyleBackColor = true;
+            this.tbEditInfoStudent.Click += new System.EventHandler(this.EditInfoStudent_Click);
             // 
-            // button3
+            // tbEditInfoLeasonsTopic
             // 
-            this.button3.Location = new System.Drawing.Point(394, 164);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(111, 37);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Редагувати тему";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.tbEditInfoLeasonsTopic.Location = new System.Drawing.Point(394, 164);
+            this.tbEditInfoLeasonsTopic.Name = "tbEditInfoLeasonsTopic";
+            this.tbEditInfoLeasonsTopic.Size = new System.Drawing.Size(111, 37);
+            this.tbEditInfoLeasonsTopic.TabIndex = 0;
+            this.tbEditInfoLeasonsTopic.Text = "Редагувати тему";
+            this.tbEditInfoLeasonsTopic.UseVisualStyleBackColor = true;
+            this.tbEditInfoLeasonsTopic.Click += new System.EventHandler(this.EditInfoLeasonsTopic_Click);
             // 
-            // button2
+            // tbShowInfoTeacher
             // 
-            this.button2.Location = new System.Drawing.Point(277, 54);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 37);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Вивести данні";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.tbShowInfoTeacher.Location = new System.Drawing.Point(277, 54);
+            this.tbShowInfoTeacher.Name = "tbShowInfoTeacher";
+            this.tbShowInfoTeacher.Size = new System.Drawing.Size(111, 37);
+            this.tbShowInfoTeacher.TabIndex = 0;
+            this.tbShowInfoTeacher.Text = "Вивести данні";
+            this.tbShowInfoTeacher.UseVisualStyleBackColor = true;
+            this.tbShowInfoTeacher.Click += new System.EventHandler(this.ShowInfoTeacher_Click);
             // 
-            // button4
+            // tbShowInfoStudent
             // 
-            this.button4.Location = new System.Drawing.Point(277, 107);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(111, 37);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "Вивести данні студентів";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.tbShowInfoStudent.Location = new System.Drawing.Point(277, 107);
+            this.tbShowInfoStudent.Name = "tbShowInfoStudent";
+            this.tbShowInfoStudent.Size = new System.Drawing.Size(111, 37);
+            this.tbShowInfoStudent.TabIndex = 1;
+            this.tbShowInfoStudent.Text = "Вивести данні студентів";
+            this.tbShowInfoStudent.UseVisualStyleBackColor = true;
+            this.tbShowInfoStudent.Click += new System.EventHandler(this.ShowInfoStudent_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(531, 279);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.Save);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.btEditTeachers);
+            this.Controls.Add(this.tbShowInfoStudent);
+            this.Controls.Add(this.tbSave);
+            this.Controls.Add(this.tbEditInfoLeasonsTopic);
+            this.Controls.Add(this.tbEditInfoStudent);
+            this.Controls.Add(this.tbShowInfoTeacher);
+            this.Controls.Add(this.btEditTeacherInfo);
             this.Controls.Add(this.btConstCopy);
             this.Controls.Add(this.btConstParam);
             this.Controls.Add(this.btConstDef);
             this.Name = "Form1";
-            this.Text = "Сонін Кирило К-31";
+            this.Text = "Сонін Кирило К-31 \"Викладач коледжу\"";
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button btEditTeachers;
-        private System.Windows.Forms.Button Save;
+        private System.Windows.Forms.Button btEditTeacherInfo;
+        private System.Windows.Forms.Button tbSave;
         private System.Windows.Forms.Button btConstDef;
         private System.Windows.Forms.Button btConstParam;
         private System.Windows.Forms.Button btConstCopy;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button tbEditInfoStudent;
+        private System.Windows.Forms.Button tbEditInfoLeasonsTopic;
+        private System.Windows.Forms.Button tbShowInfoTeacher;
+        private System.Windows.Forms.Button tbShowInfoStudent;
     }
 }
 
